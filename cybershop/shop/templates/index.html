@@ -9,26 +9,42 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,300&display=swap');
 
-
+body{
+background-color: #f6f6f6;
+}
 
 
 .heading{
+background-color: white;
 display: flex;
 align-items: center ;
+margin: auto;
+flexbox: justify-content;
+box-shadow: 0px 1px 0px 0px;
 }
 
 .logo{
-margin: 0px;
+margin-left: 0px;
 padding: 0px;
 }
 
-a{
-margin-left: 10px;
-font-family: "JetBrains Mono";
 
+.navigation{
+margin-left: 100px;
 }
 
 
+a{
+margin-left: 25px;
+font-family: "JetBrains Mono";
+text-decoration: none;
+color: black;
+font-size: 17px;
+}
+
+a:hover{
+color: grey;
+}
 
 h1{
 font-family: "JetBrains Mono";
@@ -40,9 +56,9 @@ max-height: 150px;
 }
 
 .product{
-
+background-color: white;
 display: flex;
-border: 1px black solid;
+border: 0 black solid;
  margin-top: 30px;
 border-radius: 20px;
 padding: 10px;
@@ -68,10 +84,11 @@ font-family: "JetBrains Mono";
               <h1>.dotMARKET</h1>
        </div>
 
-
-        <a href='/'>Main</a>
-        <a href='/products'>Products</a>
-        <a href='/contacts'>About&Contacts</a>
+      <div class="navigation">
+                <a href='/'>Main</a>
+                <a href='/products'>Products</a>
+                <a href='/contacts'>About&Contacts</a>
+      </div>
 </div>
 
 

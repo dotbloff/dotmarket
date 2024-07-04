@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.heading {
+display: flex;
+align-items: center ;
+margin: auto;
+flexbox: justify-content;
+box-shadow: 0px 1px 0px 0px;
+}
+
+.logo {
+margin-left: 100px;
+padding: 0px;
+}
+
+
+.navigation {
+margin-right: 100px;
+margin-left: auto;
+
+}
+
+
+a {
+margin-left: 25px;
+font-family: "JetBrains Mono";
+text-decoration: none;
+color: black;
+font-size: 17px;
+}
+
+
+a:hover {
+color: grey;
+}
+
+
+h1 {
+font-family: "JetBrains Mono";
+}
+
+
+img {
+max-width: 150px;
+max-height: 150px;
+padding-right: 30px;
+}
+
+
+.product {
+background-color: white;
+display: flex;
+border: 0 black solid;
+margin-top: 30px;
+border-radius: 20px;
+padding: 10px;
+font-size: 16px;
+width: 50%;
+}
+
+
+.productList {
+background-color: #f6f6f6;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+button {
+height: 40px;
+width: 200px;
+background-color: white;
+
+border: 1px solid black;
+border-radius: 50px;
+
+}
+
+
+button:hover {
+background-color: #C0C0C0;
+cursor: pointer;
+}
+
+
+.priceSection {
+width: 300px;
+padding-left: 30px;
+
+}
+
+
+
+h3 {
+font-family: "Chivo Mono";
+text-align: center;
+}
+
+
+p {
+font-family: Arial;
+}
+
+
+h2{
+font-family: "JetBrains Mono";
+}
+
+

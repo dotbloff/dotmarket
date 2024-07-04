@@ -3,115 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>shop</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;1,300&display=swap');
-
-body{
-font-family: Arial;
-}
-
-
-.heading{
-display: flex;
-align-items: center ;
-margin: auto;
-flexbox: justify-content;
-box-shadow: 0px 1px 0px 0px;
-}
-
-.logo{
-margin-left: 100px;
-padding: 0px;
-}
-
-
-.navigation{
-margin-right: 100px;
-margin-left: auto;
-
-}
-
-
-a{
-margin-left: 25px;
-font-family: "JetBrains Mono";
-text-decoration: none;
-color: black;
-font-size: 17px;
-}
-
-a:hover{
-color: grey;
-}
-
-h1{
-font-family: "JetBrains Mono";
-}
-
-img{
-max-width: 150px;
-max-height: 150px;
-}
-
-.product{
-background-color: white;
-display: flex;
-border: 0 black solid;
-margin-top: 30px;
-border-radius: 20px;
-padding: 10px;
-font-size: 16px;
-width: 50%;
-}
-
-.productList{
-background-color: #f6f6f6;
-display: flex;
-flex-direction: column;
-align-items: center;
-
-}
-
-button{
-height: 40px;
-width: 200px;
-background-color: white;
-
-border: 1px solid black;
-border-radius: 50px;
-
-}
-
-button:hover {
-background-color: #C0C0C0;
-cursor: pointer;
-}
-
-.priceSection{
-width: 300px;
-
-}
-
-
-h3{
-font-family: Arial;
-
-}
-
-p{
-font-family: Arial;
-}
-
-h2{
-font-family: "JetBrains Mono";
-}
-
-
-       </style>
-
 
 
 <div class="heading">
@@ -132,7 +27,7 @@ font-family: "JetBrains Mono";
 <div class="productList">
 
         <div class="product">
-            <img src='https://www.kali.org/docs/nethunter/NetHunter-xiaomi-mi-9t.png'>
+            <img src="{% static 'NetHunter.png' %}">
              <div>
                 <h2>KALI NetHunter Phone</h2>
                 <p>Kali NetHunter is available for un-rooted devices (NetHunter Rootless), for rooted devices that have a custom
@@ -149,7 +44,7 @@ font-family: "JetBrains Mono";
 
         <div class="product">
 
-                     <img src="https://ae04.alicdn.com/kf/S456dae55dd80475b8650e3093d7751b5h.jpg" alt="">
+                    <img src="{% static 'FlipperZero.webp' %}">
               <div>
                         <h2>Flipper Zero</h2>
                         <p>Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body. It loves hacking digital
@@ -157,10 +52,10 @@ font-family: "JetBrains Mono";
                             customizable, so you can extend it in whatever way you like.</p>
 
              </div>
-                <div class="priceSection">
-                                    <button>buy</button>
-                </div>
-        </div>
+             <div class="priceSection">
+                           <h3>29760 ₽</h3>
+                      <button>buy</button>
+             </div>
 
 
 
